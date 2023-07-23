@@ -81,3 +81,33 @@ img {
   max-height: 200px;
   margin: 44px;
 }
+
+.section-two {
+  margin: 50px;
+  text-align: center;
+}
+
+.h2-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin: 50px;
+  text-align: center;
+}
+
+.square-container {
+  color:#1f2937;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.square {
+  width:150px;
+  height: 150px;
+  margin: 0 auto; 
+  border: 5px solid #3882F6;
+  border-radius: 10px;
+
+}
