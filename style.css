@@ -1,7 +1,7 @@
 * {
   padding: 0; 
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -35,21 +35,23 @@ a {
 
 .title {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight:bold ;
   color: #f9faf8;
   max-width: 444px;
 }
 
 .title-subtext {
   font-size: 18px;
-  color: #e5e7be;
+  color: #E5E7EB;
   max-width: 444px;
+  font-weight: lighter;
 }
 
 .header-body {
   display: flex;
   justify-content: space-around;
   padding: 100px;
+  margin: 0 200px;
 }
 
 .hb-left {
@@ -59,9 +61,10 @@ a {
 .hb-right {
   align-items: center;
   justify-content: center;
+  background-color: gray;
+  width: 600px;
+  display: flex;
 }
-
-
 
 .button {
   background-color: #3882f6;
@@ -70,6 +73,7 @@ a {
   border-radius: 8px;
   padding: 8px 30px;
   transition: 0.4s;
+  margin: 15px 0px;
 }
 
 .button:hover{
@@ -101,6 +105,8 @@ img {
   display: flex;
   justify-content: center;
   gap: 40px;
+  font-weight: 400;
+  
 }
 
 .square {
@@ -109,5 +115,62 @@ img {
   margin: 0 auto; 
   border: 5px solid #3882F6;
   border-radius: 10px;
+}
 
+.square-text {
+  word-wrap: break-word;
+  width: 170px;
+}
+
+.section-three {
+  display: flex;
+  background-color: #E5e7EB;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quote-container {
+  margin: 100px 575px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-four {
+  display: flex;
+  background-color: white;
+  padding: 55px 88px;
+  justify-content: center;
+}
+
+.cta-box {
+  background-color: #3882F6;
+  border-radius: 10px;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: space-evenly;
+  flex: row;
+  align-items: center;
+  min-width: 900px;
+  padding: 25px;
+}
+
+.cta-button {
+  background-color: #3882F6;
+  border:2px solid white;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 30px;
+  transition: 0.4s;
+  margin: 15px 20px;
+}
+
+.footer {
+  background-color:#1F2937;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
 }
